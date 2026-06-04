@@ -1,0 +1,12 @@
+NAME="Encom OS"
+PRETTY_NAME="Encom OS"
+ID=encom-os
+ID_LIKE=arch
+BUILD_ID=rolling
+VERSION_ID=0.0.1
+ANSI_COLOR="38;2;0;200;255"
+HOME_URL="https://github.com/asmitdash/encom-os"
+DOCUMENTATION_URL="https://github.com/asmitdash/encom-os#readme"
+SUPPORT_URL="https://github.com/asmitdash/encom-os/issues"
+BUG_REPORT_URL="https://github.com/asmitdash/encom-os/issues"
+LOGO=encom-os

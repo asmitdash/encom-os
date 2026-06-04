@@ -1,0 +1,67 @@
+# Encom OS package set — minimum viable graphical live system.
+# This file is consumed by archiso. Comments starting with '#' are ignored.
+
+# Base
+base
+base-devel
+linux
+linux-firmware
+intel-ucode
+amd-ucode
+
+# Boot / installer plumbing
+syslinux
+edk2-shell
+arch-install-scripts
+mkinitcpio-archiso
+archinstall
+
+# Networking
+networkmanager
+iwd
+wpa_supplicant
+openssh
+openresolv
+
+# Storage
+btrfs-progs
+e2fsprogs
+dosfstools
+exfatprogs
+ntfs-3g
+cryptsetup
+parted
+gptfdisk
+
+# Graphics / Wayland (for Phase 2 shell)
+mesa
+vulkan-icd-loader
+seatd
+wayland
+wayland-protocols
+xorg-xwayland
+
+# Audio
+pipewire
+pipewire-pulse
+wireplumber
+
+# Fonts
+ttf-dejavu
+noto-fonts
+
+# CLI essentials
+sudo
+git
+curl
+wget
+htop
+nano
+vim
+zsh
+
+# Encom runtime (built and added by build/iso.sh as a custom package)
+# encom-core
+# encom-shell
+# encom-firstboot
+# ollama   # only included on the 'full' build flavor

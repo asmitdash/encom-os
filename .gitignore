@@ -1,0 +1,25 @@
+# ISO build outputs
+/out/
+/work/
+*.iso
+*.img
+*.sha256
+*.sig
+
+# Rust
+/target
+
+# Node
+node_modules
+dist
+
+# Editors
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets — never commit
+.env
+*.key
+*.pem

@@ -1,0 +1,22 @@
+[package]
+name = "encom-shell"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "Encom OS Wayland shell — the agent surface that replaces a traditional desktop."
+
+[[bin]]
+name = "encom-shell"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+tokio.workspace = true
+# Phase 2 deps land here:
+# smithay = "0.3"
+# wayland-server = "0.31"
+# calloop = "0.13"
